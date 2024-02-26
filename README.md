@@ -1,0 +1,2 @@
+# SSF-AI
+KGU SSF 2024 AI Study
