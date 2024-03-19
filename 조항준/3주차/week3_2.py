@@ -1,10 +1,10 @@
 print("시험점수를 입력하세요")
 a = int(input())
 
-if(a>100):
+if(a>100 or a<0):
     print("다시 입력해주세요")
 
-elif(a>=90 and a<=100100):
+elif(a>=90 and a<=100):
     print("A")
 
 elif(a>=80 and a<90):
