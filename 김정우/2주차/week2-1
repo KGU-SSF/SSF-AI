@@ -1,0 +1,7 @@
+A = int(input("A = "))
+B = int(input("B = "))
+a=A+B
+b=A-B
+c=A*B
+d=A/B
+print("A + B = ",a,"\nA - B = ",b,"\nA * B = ",c,"\nA / B = ",d)
