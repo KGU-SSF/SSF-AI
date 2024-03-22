@@ -14,4 +14,4 @@ elif(score >=60):
 elif(score >=0):
     print("F")
 else:
-    print("다시 입력해주세요.")
+    print("다시 입력해주세요")
