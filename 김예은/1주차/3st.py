@@ -1,0 +1,47 @@
+#1번
+num1 = int(input("값을 입력하시오 : " ))
+num2 = int(input("값을 입력하시오 : " ))
+
+rst1 = num1 + num2
+rst2 = num1 - num2
+rst3 = num1 * num2
+rst4 = num1 / num2
+rst5 = num1 % num2
+
+print(int(rst1))
+print(int(rst2))
+print(int(rst3))
+print(int(rst4))
+print(int(rst5))
+
+#2번
+while True:
+  score = int(input("시험 점수를 입력하세요: "))
+
+  if score > 100 or score < 0:
+    print("다시 입력해주세요.")
+    continue
+
+  if 90 <= score <= 100:
+    print("A")
+  elif 80<= score <=89:
+    print("B")
+  elif 70<= score <=79:
+    print("C")
+  elif 60<= score <=69:
+    print("D")
+  else:
+    print("F")
+
+  break
+
+
+#3번
+nums = [1,2,3,4,5,6,7,8,9,10]
+
+print(nums[::2])
+
+
+#4번
+cook=["피자","김밥","만두","양념치킨","족발","피자","김치만두","쫄면","소세지","라면","팥빙수","김치전"]
+print(len(cook))
