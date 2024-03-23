@@ -11,7 +11,7 @@ num2=int(num2)
 add=num1+num2
 sub=num1-num2
 mul=num1*num2
-quo=num1/num2
+quo=num1//num2
 rem=num1%num2
 
 print("출력:",add, sub, mul, quo, rem)
