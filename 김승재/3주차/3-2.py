@@ -1,5 +1,5 @@
 score = int(input("시험 점수를 입력해주세요 : "))
-if score > 100 :
+if score > 100 or score < 0 :
     print("다시 입력해주세요")
 else :
     if score >= 90:
