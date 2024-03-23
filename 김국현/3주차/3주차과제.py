@@ -10,7 +10,9 @@ b = int(b)
 print(a+b, a-b, a*b, int(a/b), a%b)
 
 #2번
-score = int(input())
+score = -1
+while( score < 0 or score > 100):
+    score = int(input())
 
 if(90<= score <= 100): print("A")
 elif(80<=score<=89): print("B")
