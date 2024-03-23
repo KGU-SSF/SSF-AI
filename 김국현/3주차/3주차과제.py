@@ -7,7 +7,7 @@ b = input()
 a = int(a)
 b = int(b)
 
-print(a+b, a-b, a*b, a/b, a%b)
+print(a+b, a-b, a*b, int(a/b), a%b)
 
 #2번
 score = int(input())
