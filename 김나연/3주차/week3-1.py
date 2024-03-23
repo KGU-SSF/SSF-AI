@@ -1,0 +1,7 @@
+A = int(input("첫 번째 숫자를 입력하세요."))
+B = int(input("두 번째 숫자를 입력하세요."))
+print(A+B)
+print(A-B)
+print(A*B)
+print(A//B)
+print(A%B)
