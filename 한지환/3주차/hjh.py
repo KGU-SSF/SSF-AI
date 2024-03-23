@@ -6,7 +6,7 @@ b = int(b)
 print(a + b)
 print(a - b)
 print(a * b)
-print(a / b)
+print(a // b)
 print(a % b)
 #2번문제
 x = input("시험 점수")
@@ -15,7 +15,7 @@ if 90 <= x <= 100: print("A")
 elif 80 <= x <= 89: print("B")
 elif 70 <= x <= 79: print("C")
 elif 60 <= x <= 69: print("D")
-elif x >= 100 or x <= 0: print("다시 입력해주세요")
+elif x >= 100 or x < 0: print("다시 입력해주세요")
 else: print("F")
 #3번문제
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
