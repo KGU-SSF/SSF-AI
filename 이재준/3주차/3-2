@@ -1,4 +1,4 @@
-def question2():
+
     n = int(input("점수: "))
 
     if n >= 90:
