@@ -1,5 +1,5 @@
 def score(n):
-    if (n >= 100 or n <= 0):
+    if (n > 100 or n < 0):
         print("다시 입력해주세요")
     elif (n >= 90):
         print("A")
