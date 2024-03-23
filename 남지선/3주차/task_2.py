@@ -8,14 +8,13 @@ sco=int(input("점수를 입력해 주세요:"))
 
 if sco>100 or sco<0 :
     sco=int(input("다시 입력해주세요:"))
-
 if 100>=sco>=90:
     print("A")
 elif sco>=80:
     print("B")
 elif sco>=70:
-    print("B")
+    print("C")
 elif sco>=60:
-    print("B")
+    print("D")
 else:
     print("F")
