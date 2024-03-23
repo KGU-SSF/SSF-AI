@@ -1,4 +1,4 @@
-#3주차. 1번
+test
 a=7
 b=3
 print(a,b)
