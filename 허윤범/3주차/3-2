@@ -1,0 +1,14 @@
+a = int(input(""))
+
+if a > 100 or a < 0:
+    print("100보다 큰 수, 0보다 작은 수일 때는 \"다시 입력해주세요\"")
+elif a > 89:
+    print("A")
+elif a > 79:
+    print("B")
+elif a > 69:
+    print("C")
+elif a > 59:
+    print("D")
+else:
+    print("F")        

@@ -1,0 +1,19 @@
+a,b=input("입력예시:").split()
+a=int(a)
+b=int(b)
+add=a+b
+min=a-b
+mul=a*b
+mork=a//b
+na=a%b
+print("출력예시:",add,min,mul,mork,na)
+''''''
+# map함수 활용
+'''a,b=map(int,input("입력예시:").split())
+add=a+b
+min=a-b
+mul=a*b
+mork=a//b
+na=a%b
+print("출력예시:",add,min,mul,mork,na)
+'''
