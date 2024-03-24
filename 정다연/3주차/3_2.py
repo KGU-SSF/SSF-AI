@@ -1,4 +1,4 @@
-score = input()
+score = input() 
 score = int(score)
 
 if(score >= 100):
