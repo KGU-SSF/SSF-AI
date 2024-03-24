@@ -11,7 +11,7 @@ print(A%B)
 print("\n2번")
 while(1):
     Score=int(input())
-    if(Score>100|Score<0):
+    if(Score>100&Score<0):
         print( "다시 입력해주세요")
     elif(Score<=100&Score>=90):
         print("A")
