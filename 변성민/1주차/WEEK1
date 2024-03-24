@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+int a;
+
+scanf("%d", &a);
+if(90<=a&&a<=100)
+printf("A");
+else if(80<=a&&a<=90)
+printf("B");
+else if (70 <=a && a <= 80)
+printf("C");
+else if (60 <= a && a <= 70)
+printf("D");
+else if (a<60)
+	printf("E");
+else if (100 < a || a<0)
+	printf("다시 입력해주세요");
+}
+	
