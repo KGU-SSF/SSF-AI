@@ -1,7 +1,7 @@
 score = input() 
 score = int(score)
 
-if(score >= 100):
+if(score > 100):
     print("다시 입력해주세요.")
 elif(score >=90 ):
     print("A")
