@@ -6,5 +6,5 @@ for i in range(99):
         jjaksu.append(i)
         
 jjaksu = tuple(jjaksu)
-print(jjaksu)
+print(jjaksu) 
     

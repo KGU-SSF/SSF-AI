@@ -3,5 +3,5 @@
 price_list = list(map(int, input().split()))
 s = len(price_list)
 
-for i in range(s):
+for i in range(s): 
     print(price_list[i])

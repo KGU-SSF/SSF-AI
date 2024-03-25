@@ -3,4 +3,4 @@
 for i in range(30):
     if((3*(i+1))>30):
         break
-    print(3*(i+1))
+    print(3*(i+1)) 
