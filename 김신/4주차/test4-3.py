@@ -1,2 +1,2 @@
-print_coin =  "비트코인"
-print(print_coin)
+def print_coin() :print("비트코인\n")
+print_coin()
