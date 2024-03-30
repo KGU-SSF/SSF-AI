@@ -4,5 +4,5 @@ while i>0:
     while i>0:
         star_row = star_row + '*'
         i -= 1
-        print("{0:>10}".format(star_row))
+        print("{0:>10}".format(star_row)) #최대 10개
 i -= 1
