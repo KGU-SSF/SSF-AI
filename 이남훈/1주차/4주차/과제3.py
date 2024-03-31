@@ -1,5 +1,5 @@
-def print_coin():
+def print_bitcoin():
     print("비트코인")
 
-print_coin()
+print_bitcoin()
 
