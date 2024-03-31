@@ -12,3 +12,4 @@ elif (score >= 60)&(score <= 69):
     print("D")
 else:
     print("F")
+    #commit 메세지 수정용
