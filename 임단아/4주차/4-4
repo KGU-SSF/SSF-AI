@@ -1,0 +1,3 @@
+#4주차 4번
+    for num in range(3,31,3):
+        print(num)
