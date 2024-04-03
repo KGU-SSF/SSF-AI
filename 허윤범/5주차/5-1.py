@@ -1,10 +1,10 @@
-a = int(input(""))
+a = int(input("")) #점수가 50미만일 경우 50으로 설정
 b = int(input(""))
 c = int(input(""))
 d = int(input(""))
 e = int(input(""))
 
-if a < 50:
+if a < 50:             
     a = 50
 if b < 50:
     b = 50
