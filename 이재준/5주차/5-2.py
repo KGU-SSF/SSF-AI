@@ -1,4 +1,8 @@
-N = int(input())
+n = int(input())
+n= n + 1
 
-for i in range(1, N+1):
-    print(" " * (N-i) + " * " * (i))
+for x in range(1, n) :
+    print(" " * (n - x), end = "")  
+    for _ in range(x):
+        print("* ", end="")         
+    print("") 
