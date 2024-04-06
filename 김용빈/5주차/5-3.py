@@ -1,5 +1,7 @@
 for i in range(3):
+    
     num = sum(list(map(int,input().split())))
+    
     if num == 3:
         print("A")
     elif num == 2:
@@ -10,3 +12,5 @@ for i in range(3):
         print("D")
     elif num == 4:
         print("E")
+        
+        
