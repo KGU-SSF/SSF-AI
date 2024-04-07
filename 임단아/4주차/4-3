@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-#4주차43번
-    def print_coin():
-        print("비트코인")
-=======
-#4주차43번
-    def print_coin():
-        print("비트코인")
->>>>>>> aab66e01838cd982bc904fd6f614445ab8f6c25f

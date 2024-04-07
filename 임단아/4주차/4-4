@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-#4주차 4번
-    for num in range(3,31,3):
-        print(num)
-=======
-#4주차 4번
-    for num in range(3,31,3):
-        print(num)
->>>>>>> aab66e01838cd982bc904fd6f614445ab8f6c25f
