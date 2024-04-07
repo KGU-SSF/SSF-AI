@@ -62,11 +62,16 @@ SSF-AI
 <br>
 
 
-## PR Guideline
-#### PR 제목은 아래의 형식을 따릅니다.
+## Pull Request Guideline
+#### Pull Request 제목은 아래의 형식을 따릅니다.
 ##### ```Week n : name 과제 제출```
 
 ```
 예시
 Week 1 : 홍준서 과제 제출
 ```
+
+#### Pull Request의 `Description` 항목에는 다음과 같은 항목에 대해 작성합니다.
+- 해결되지 않는 문제, 오류
+- 과제에 대해 궁금한 점
+- 추가적인 궁금점
