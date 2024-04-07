@@ -6,18 +6,18 @@ for i in range(1,num+1):
     if i == 1:
         string = " "*temp + "*" + " "*temp
         print(string)
-    if i % 2 == 0:
+    if i != 1:
         string = ""
         if temp2 > 0: string += " "*(temp2)
         for j in range(i*2 - 1):
             if j % 2 == 0: string += "*"
             if j % 2 == 1: string += " "
         print(string)
-    if i % 2 == 1 and i != 1:
-        string = ""
-        if temp2 > 0: string += " "*(temp2)
-        for j in range(i*2 -1):
-            if j % 2 == 0: string += "*"
-            if j % 2 == 1: string += " "
-        print(string)
+    # if i % 2 == 1 and i != 1:
+    #     string = ""
+    #     if temp2 > 0: string += " "*(temp2)
+    #     for j in range(i*2 -1):
+    #         if j % 2 == 0: string += "*"
+    #         if j % 2 == 1: string += " "
+    #     print(string)
 
