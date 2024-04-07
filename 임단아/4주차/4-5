@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 #4주차 5번
     a = tuple(range(2,100,2))
     print(a)
+=======
+#4주차 5번
+    a = tuple(range(2,100,2))
+    print(a)
+>>>>>>> aab66e01838cd982bc904fd6f614445ab8f6c25f

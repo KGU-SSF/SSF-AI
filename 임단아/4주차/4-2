@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #4주차 2번
     price_list = [32100,32150,32000,32500]
     for i in range(4):
         print(3-i, price_list[i])
+=======
+#4주차 2번
+    price_list = [32100,32150,32000,32500]
+    for i in range(4):
+        print(3-i, price_list[i])
+>>>>>>> aab66e01838cd982bc904fd6f614445ab8f6c25f
