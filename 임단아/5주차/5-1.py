@@ -6,8 +6,8 @@ for i in range(5):
 
 result = []
 for i in ans:
-    if i < 40:
-        result.append(40)
+    if i < 50:
+        result.append(50)
     else:
         result.append(i)
 
