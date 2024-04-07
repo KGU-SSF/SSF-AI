@@ -1,0 +1,3 @@
+#4주차 5번
+    a = tuple(range(2,100,2))
+    print(a)
