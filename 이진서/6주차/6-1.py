@@ -1,13 +1,15 @@
 s = input()
 
-l = list(s)
+l1 = list(s)
 
-if len(l)%2 == 0:
+l2 = list(reversed(l1))
+
+if l1 == l2:
+    print("True")
+elif l1 != l2:
     print("False")
-elif len(l)%2 != 0:
-    if l[-1] == l[0] and l[1] == l[-2]:
-        print("True")
-    elif l[-1] != l[0] or l[1] != l[-2]:
-        print("False")
+
+
+
 
 
