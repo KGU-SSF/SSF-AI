@@ -6,4 +6,4 @@ for i in range(len(word) // 2):   # 0부터 문자열 길이의 절반만큼 반
     is_palindrome = False         # 회문이 아님 
     break
 
-print(is_palindrome)
+print(is_palindrome)              # 회문 판별값 출력 
