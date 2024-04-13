@@ -7,6 +7,6 @@ for _ in range(K):
     if num == 0:
         cards = cards[:-1]
     else:
-        cards = cards [num]
+        cards += [num]
         
         print(sum(cards))
