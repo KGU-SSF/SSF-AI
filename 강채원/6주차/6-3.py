@@ -7,5 +7,7 @@ def random_sequence(N):
 result = random_sequence(N)
 print(result)
 
-sorted_result = sorted(result)#오름차순으로 정렬하기 위해 sorted_result 함수를 사용
-print(sorted_result)
+result = sorted(result)#오름차순으로 정렬하기 위해 sorted(result) 함수를 사용
+
+for result2 in result: #한줄마다 하나씩 출력
+    print(result2)
