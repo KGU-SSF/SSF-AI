@@ -1,6 +1,6 @@
 def reverse(a):
     rev_str = []
-    for _ in a[::-1]:
+    for i in a[::-1]:
         rev_str.append(i)
     return rev_str
 
