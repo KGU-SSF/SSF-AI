@@ -1,7 +1,7 @@
 #6주차 2번
 
 k = int(input("숫자를 입력하시오. : "))    #값입력
-li = []
+li = []     #값을 입력받을 수 있는 리스트 생성
 for i in range(k):
     n = int(input())    #k번만큼 n을 입력받기
     if(n==0):
