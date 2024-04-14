@@ -1,9 +1,0 @@
-word = input('단어 : ')
-
-p = True
-
-for i in range(len(word)//2):
-    if word[i] != word[-1-i]:
-        p = False
-
-print(p)
