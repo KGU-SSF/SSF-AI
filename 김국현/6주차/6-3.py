@@ -3,6 +3,6 @@ nums = []
 for i in range(count):
     nums.append(int(input()))
 
-print(sorted(nums))
-
+for i in sorted(nums):
+    print(i)
     
