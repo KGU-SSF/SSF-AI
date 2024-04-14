@@ -6,8 +6,7 @@ for i in range(a):
     q.append(int(input()))
     if q[-1] == 0: #가장 최근 토큰
         q.pop()
-        if len(q) >= 2: #토큰이 1개일때에 pop이 두 번 작동하는걸 방지
-            q.pop()
+        q.pop()
         
 #for i in range(len(q)): #'len(q)-1'의 type는 int임
 #    b =+ q[i] #sum이외에 다른 방법으로는 in 다음 인수를 'q'로 지정
