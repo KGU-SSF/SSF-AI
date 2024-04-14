@@ -1,0 +1,10 @@
+a = int(input("적을 수의 개수를 정하세요: "))
+number = []
+result = 0
+
+for i in range(a):
+    b = int(input())
+    number.append(b)
+
+result = sum(number)
+print(result)
