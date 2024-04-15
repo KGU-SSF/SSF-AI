@@ -1,0 +1,3 @@
+def print_coin(i):
+    print(i)
+print_coin("비트코인")

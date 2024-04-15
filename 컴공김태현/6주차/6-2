@@ -1,0 +1,19 @@
+from collections import deque
+queue=deque()
+total=0
+
+k=int(input("카드 개수: "))
+list=[]
+for _ in range(k):
+    card = int(input())
+    list.append(card)
+for card in list:
+    if card==0:
+        if queue:
+            queue.pop()
+    else:
+        queue.append(card)
+for num in queue:
+    total+=num
+
+print("합: ", total)
