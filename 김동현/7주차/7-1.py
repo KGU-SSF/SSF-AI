@@ -9,7 +9,7 @@ class Rectangle:
         area = self.width * self.height
         return area
 
-    def circum_clac(self):
+    def circum_calc(self):
         circum = (self.width + self.height)*2
         return circum
 
@@ -18,6 +18,6 @@ rec = Rectangle(10, 5)
 area = rec.area_calc()
 print('사각형의 넓이: ', area)
 
-circum = rec.circum_clac()
+circum = rec.circum_calc()
 print('사각형의 둘레: ', circum)
 print('-'*30)
