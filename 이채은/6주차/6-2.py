@@ -5,17 +5,17 @@ for _ in range(N):
     card = int(input())
     cards.append(card)
 
-right = []
+num = []
 total_sum = 0
 
 for card in cards:
     if card != 0:
-        right.append(card)
+        num.append(card)
         total_sum += card
 
     else:
-        if right:
-            removed_card = right.pop()
+        if num:
+            removed_card = num.pop()
             total_sum -= removed_card
 
 print(total_sum)
