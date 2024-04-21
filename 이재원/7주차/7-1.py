@@ -1,0 +1,25 @@
+class Rectangle:
+    width = 0
+    height = 0
+
+    def __init__(self,height,width):
+        self.height = height
+        self.width = width
+
+
+    def area_calc(self):
+        area = self.width * self.height
+        return area
+
+    def circum_calc(self):
+        circum = (self.width + self.height) * 2
+        return circum
+    # class object 생성
+
+print('-'*30)
+rec = Rectangle(10, 5) # x 초기화
+area = rec.area_calc() # 분산 함수 호출
+print('사각형의 넓이:', area)
+circum = rec.circum_calc()
+print('사각형의 둘레:', circum)
+print('-'*30)
