@@ -1,0 +1,8 @@
+word = str(input("문자를 입력하세요 : "))
+reverse=""
+for i in word:
+    reverse+=i
+if word==reverse:
+    print("True")
+else:
+    print("false")
