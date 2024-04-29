@@ -17,7 +17,7 @@ class Rectangle:
     
 #class object 생성
 print('-'*30)
-rec = Rectangle(5, 5)   # x 초기화
+rec = Rectangle(10, 5)   # x 초기화
 area = rec.area_calc()  # 분산 함수 호출
 print('사각형의 넓이:', area)
 
