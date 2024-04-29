@@ -1,0 +1,24 @@
+result = []
+for i in range(0,3):
+    yut = input().split()
+    front = yut.count('0')
+    back = yut.count('1')
+    
+    if front == 1 and back == 3:
+        run = 'A'
+    elif front == 2 and back == 2:
+        run = 'B'
+    elif front == 3 and back == 1:
+        run = 'C'
+    elif front == 4:
+        run = 'D'
+    elif back == 4:
+        run = 'E'
+    else:
+        print("잘못된 입력입니다.")
+        continue
+    
+    result.append(run)
+
+for run in result:
+    print(run)
