@@ -1,15 +1,18 @@
 #3번문제
-for i in range(3):
-    a = list(map(int,input().split()))
-    zero = a.count(0)
+sum = 0
+for i in range(4):
+    a = int(input("num"))
+sum += a 
 
-    if zero == 1:
-        print("A")
-    elif zero == 2:
-        print("B")
-    elif zero == 3:
-        print("C")
-    elif zero == 4:
-        print("D")
-    else : 
-        print("E")
+if sum == 1:
+     print("A")
+elif sum == 2:
+     print("B")
+elif sum == 3: 
+     print("C")
+elif sum == 4: 
+     print("D")
+elif sum == 0: 
+     print("E")
+else:
+     print("다시 입력해주세요")
