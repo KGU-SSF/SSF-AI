@@ -1,0 +1,16 @@
+N = int(input("수의 개수: "))
+numbers = []
+
+for _ in range(N):
+    num = int(input())
+    numbers.append(num)
+
+for i in range(N):
+    min = i
+    for j in range(i+1, N):
+        if numbers[j] < numbers[min]:
+            min = j
+    numbers[i], numbers[min] = numbers[min], numbers[i]
+
+for num in numbers:
+    print(num)
