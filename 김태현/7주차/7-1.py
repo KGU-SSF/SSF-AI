@@ -1,9 +1,13 @@
 class Rectangle:
 # 클래스 변수
  width = height = 0
- def __init__(self,width, height): # 생성자에 넓이와 높이를 정의
-        self.width=width
-        self.height=height 
+ 
+ def __self__(self,width,height):
+    self.width=width
+    self.height=height
+
+ def __init__(self,width,height):
+    self.__self__(width,height)
 
  def area_calc(self):
   area = self.width * self.height
