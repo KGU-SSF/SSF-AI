@@ -1,6 +1,4 @@
-from collections import deque
-
-q = deque()             #deque() 선언
+q = []                  #q 배열 선언
 k = int(input())        #입력 받을 개수 k
 
 for i in range(0,k):    #0부터 k만큼 반복
