@@ -1,4 +1,4 @@
-import numpy as np    #numpy 임포
+import numpy as np    #numpy 임포트
 input_data = np.array([3, 5])
 
 weight_hidden_0= np.array([2, 3])    #첫 은닉층 가중치
