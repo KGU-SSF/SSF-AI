@@ -1,5 +1,5 @@
 import numpy as np #numpy를 np라는 이름으로 가져옴
-#이 구조는 다층 퍼셉트론 인공 신경망을 구현 한것임
+#이 구조는 다층 퍼셉트론 인공 신경망을 구현 한 것임
 
 ##다층 퍼셉트론 설명((https://youtu.be/mlsCX5sL76E?si=iYbtxU7iWVy27DUZ))
 
