@@ -11,4 +11,4 @@ hidden_1_value=(input_data*weight_hidden_1).sum()              #3과 가중치 4
 print(hidden_0_value,hidden_1_value,sep=",")                         #가중치를 적용한 값 각각 출력
 
 output=hidden_0_value*weight_output[0]+hidden_1_value*weight_output[1]        #가중치를 적용한 값[0]과 2 / 가중치를 적용한 값[1]과 7을 곱해서 각각 더해줌
-print(output)                                                                # 위의 값 출력
+print(output)                                                               # 위의 값 출력
