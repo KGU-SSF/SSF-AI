@@ -1,6 +1,6 @@
 import numpy as np
 
-input_data = np.array([3,5])
+input_data = np.array([3,5])    
 
 weight_hidden_0 = np.array([2,3])
 weight_hidden_1 = np.array([4,-5])
