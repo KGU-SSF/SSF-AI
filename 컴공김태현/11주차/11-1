@@ -4,7 +4,7 @@ input_data = np.array([3, 5]) #초기 데이터값 입력
 
 weight_hidden_0 = np.array([2, 3]) #초기값의 1번 가중치
 weight_hidden_1= np.array([4, -5]) #초기값의 2번 가중치
-weight_output = np.array([2, 7]) #1번 2번 계산한 값의 가중치
+weight_output = np.array([2, 7]) #1번 2번 계산 값의 가중치
 
 hidden_0_value= (input_data * weight_hidden_0).sum() #1번 계산
 hidden_1_value=(input_data * weight_hidden_1).sum() #2번 계산
