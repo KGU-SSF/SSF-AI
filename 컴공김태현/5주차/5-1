@@ -1,0 +1,13 @@
+score=[]
+sum=0
+for i in range(0,5):
+    a=int(input())
+    if a % 5 != 0 or a < 0 or a > 100:
+        continue
+    if a<50:
+        a=50
+    score.append(a)
+for j in range(0,5):
+    sum+=score[j]
+result=sum/5
+print(result) 

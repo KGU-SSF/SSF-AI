@@ -1,8 +1,0 @@
-a = input("첫번째값을 입력하시오: ")
-b = input("두번째값을 입력하시오: ")
-c = int(a) + int(b)
-d = int(a) - int(b)
-e = int(a) * int(b)
-f = int(a) // int(b)
-g = int(a) % int(b)
-print(c,d,e,f,g)
