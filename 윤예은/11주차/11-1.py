@@ -11,4 +11,4 @@ hidden_1_value=(input_data * weight_hidden_1).sum() #[3,5]에 2행 1열 크기�
 print(hidden_0_value,hidden_1_value,sep=',') #은닉층 출력
 
 output = hidden_0_value * weight_output[0] + hidden_1_value * weight_output[1] #다시 [21, -13]에 2행 1열의 [2,7]을 곱하여 결과값은 [42-91]이므로 [-49]가 된다
-print(output)
+print(output) 
