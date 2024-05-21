@@ -8,7 +8,7 @@ weight_output = np.array([2,7])  #가중치 입력
 
 hidden_0_value = (input_data*weight_hidden_0).sum()   #(3x2)+(5x3) 행렬 계산 
 hidden_1_value = (input_data*weight_hidden_1).sum()   #(3x4)+(5x-5) 행렬 계산 
-print(hidden_0_value,hidden_1_value,sep=',') 
+print(hidden_0_value,hidden_1_value,sep=',') # 값을 출력 
 
-output = hidden_0_value * weight_output[0] + hidden_1_value * weight_output[1]  # (21x2)+(-13x7) 
+output = hidden_0_value * weight_output[0] + hidden_1_value * weight_output[1]  # (21x2)+(-13x7) 계산 
 print(output)  #output 출력 
