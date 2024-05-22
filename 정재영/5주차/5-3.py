@@ -13,5 +13,5 @@ for result in results:
         print('B')  
     elif result == 3:
         print('A')  
-    elif result == 4:
+    elif result == 4: 
         print('E')
