@@ -16,5 +16,5 @@ area = rec.area_calc()
 print('사각형의 넓이:', area)
 print('-'*30)
 circum=rec.circum_calc()
-print('사각형의 둘레:'),circum
+print('사각형의 둘레:',circum)
 print('-'*30)
