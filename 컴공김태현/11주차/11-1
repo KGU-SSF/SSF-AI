@@ -1,0 +1,16 @@
+import numpy as np
+
+input_data = np.array([3, 5]) #입력값을 3,5로 정의
+
+weight_hidden_0 = np.array([2, 3]) #첫번째 입력값의 가중치
+weight_hidden_1= np.array([4, -5]) #두번째 입력값의 가중치
+weight_output = np.array([2, 7]) #입력값을 계산한 값의 가중치
+
+hidden_0_value= (input_data * weight_hidden_0).sum() #계산 3X2+5X3=21
+hidden_1_value=(input_data * weight_hidden_1).sum() #계산 3X4+5X-5=-13
+
+print(hidden_0_value, hidden_1_value, sep=',') #계산 결과값 21,-13 출력
+
+output = hidden_0_value * weight_output[0]+hidden_1_value * weight_output[1] #계산 21X2+(-13)X7=-49
+
+print(output) #최종 결과값 -49 출력
