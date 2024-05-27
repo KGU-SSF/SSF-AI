@@ -15,5 +15,6 @@ print("new weight:", new_weight)
 
 new_pred=new_weight*input_data  #새로운 예측값＝새로운　가중치　＊　초기값
 print("new prediction:", new_pred)
+
 new_error=new_pred-target   #새로운 오차＝새로운예측값-실제값
 print("new error:", new_error) #새로운 오차값 출력
