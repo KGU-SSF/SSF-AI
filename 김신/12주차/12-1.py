@@ -3,7 +3,6 @@ weight = 3 #초기 가중치 = 5
 target = 8 #목표 값 = 8
 learning_rate = 0.1 #학습률
 
-# 경사 하강법에 따른 오차 함수의 기울기
 pred = weight * input_data #예측값 = 입력값 * 가중치
 
 # error = 오차값
