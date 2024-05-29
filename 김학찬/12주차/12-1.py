@@ -1,3 +1,4 @@
+# 12주차 과제
 import numpy as np
 
 input_data = 5
