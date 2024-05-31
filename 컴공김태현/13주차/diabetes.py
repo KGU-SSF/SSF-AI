@@ -4,24 +4,19 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 import numpy as np
 
-# 당뇨병 데이터셋 로드
 diabetes = load_diabetes()
 X_data = diabetes.data
 y_data = diabetes.target
 
-# 훈련 세트와 테스트 세트로 데이터 분리
 x_train, x_test, y_train, y_test = train_test_split(X_data, y_data, test_size=0.2, random_state=42)
 
-# 선형 회귀 모델 생성 및 훈련
 lr = LinearRegression()
 lr.fit(x_train, y_train)
 
-# 훈련 데이터에 대한 예측 및 R² 점수 계산
 y_train_pred = lr.predict(x_train)
 r2_train = r2_score(y_train, y_train_pred)
 print(f"r2_train: {r2_train}")
 
-# 테스트 데이터에 대한 예측 및 R² 점수 계산
 y_test_pred = lr.predict(x_test)
 r2_test = r2_score(y_test, y_test_pred)
 print(f"r2_test: {r2_test}")
