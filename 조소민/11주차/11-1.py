@@ -12,4 +12,4 @@ hidden_1_value=(input_data*weight_hidden_1).sum() # 3*4 + 5*(-5) = -13
 print(hidden_0_value,hidden_1_value,sep=',') # 21, -13 출력
 
 output=hidden_0_value*weight_output[0] + hidden_1_value*weight_output[1] #두 value 값과 가중치(weight_output)값을 곱한 후 더함
-print(output) # output = 21*2 + (-13)*7 = -49. -49 출력..
+print(output) # output = 21*2 + (-13)*7 = -49. -49 출력
