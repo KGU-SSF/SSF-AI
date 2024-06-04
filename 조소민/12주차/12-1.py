@@ -3,7 +3,7 @@ weight = 3
 target = 8
 learning_rate = 0.1
 
-pred = weights * input_data
+pred = weight * input_data
 
 error = pred - target
 print("original error:", error)
